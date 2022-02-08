@@ -4,6 +4,10 @@ body{
 	overflow-x: hidden;
 }
 
+.material-icons:active{
+	color: cyan;
+}
+
 /*------page1-----------------------*/
 #page1{
 	height: 50vh;
