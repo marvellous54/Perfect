@@ -1,0 +1,35 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+/*------page1-----------------------*/
+#page1{
+	height: 50vh;
+	width: 100%;
+	background-image: url(img/mhouse.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#nav-bar{
+	height: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+}
+
+#logo{
+	font-family: 'Supermercado One';
+	font-size: 20px;
+}
+
+#nav-bar a{
+	text-decoration: none;
+	color: black;
+	margin: 30px 10px;
+}
