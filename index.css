@@ -16,7 +16,6 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border-bottom: 2px solid cyan;
 }
 
 #nav-bar{
@@ -71,7 +70,7 @@ body{
 /*------page2-----------------------*/
 
 #page2{
-	background-color: ;
+	background-image: ;
 	height: 50vh;
 	display: flex;
 	flex-flow: column;
@@ -83,8 +82,9 @@ body{
 .page2-img{
 	width: 30vh;
 	height: auto;
-	border: 2px solid cyan;
-	border-radius: 10%;
+	position: relative;
+	top: 30px;
+	border-radius: 50%;
 }
 
 .founder{
@@ -97,11 +97,8 @@ body{
 	padding: 5px;
 	font-family: 'Supermercado One';
 	font-size: 15px;
-	color: grey;
-	text-shadow: 0px 0px 1px cyan;
+	color: black;
 }
-
-
 
 /*--------------------MEDIA------------------------*/
 @media all and (min-width: 600px){
