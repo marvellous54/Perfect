@@ -12,6 +12,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	border-bottom: 2px solid cyan;
 }
 
 #nav-bar{
