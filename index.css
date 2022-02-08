@@ -33,3 +33,15 @@ body{
 	color: black;
 	margin: 30px 10px;
 }
+
+
+@media all and (min-width: 600px){
+	#page1{
+		height: 70vh;
+		width: 100%;
+		background-image: url(https://user-images.githubusercontent.com/99110645/152913483-a12fe3ec-b40f-4d63-a716-d4af2b9fc6b3.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
