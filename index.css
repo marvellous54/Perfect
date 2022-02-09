@@ -39,6 +39,7 @@ body{
 	color: black;
 	margin: 30px 10px;
 	z-index: 99;
+	position: relative;
 }
 
 #page1-header{
