@@ -129,6 +129,60 @@ body{
 .box{
 	margin: 2px;
 }
+
+/*------page3-----------------------*/
+#page3{
+	background-color: rgba(240,240,240,0.7);
+	top: 7vh;
+	height: 50vh;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.comment{
+	font-family: indie flower;
+}
+
+.quote{
+	color: white;
+	padding: 5px;
+	text-shadow: 0px 0px 2px black;
+}
+
+.worker{
+
+}
+
+.ex-worker{
+	width: 10vh;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+	top: -5vh;
+}
+
+#page3 img{
+	margin-top: 4vh;
+	margin-bottom: -8vh;
+}
+
+#page3-head{
+	font-family: 'Supermercado One';
+	position: relative;
+	margin-bottom: -10px;
+}
+
+#page3-detail{
+	padding: 0px;
+	position: relative;
+	font-family: 'Bebas Neue';
+}
+
+
 /*---MEDIA-------------------------*/
 @media all and (min-width: 600px){
 	#page1{
