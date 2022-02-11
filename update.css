@@ -54,12 +54,14 @@ nav p:nth-child(2){
 	border-radius: 10px;
 	border: 2px solid grey;
 	margin-top: 20px;
-	
+	text-decoration: none;
 	background-color: white;
 }
 
 .container p{
 	padding: 10px;
+	text-decoration: none;
+	color: black;
 }
 
 
@@ -71,6 +73,6 @@ nav p:nth-child(2){
 	}
 
 	.container{
-		height: 35vh;
+		
 	}
 }
