@@ -33,3 +33,44 @@ nav p:nth-child(1){
 nav p:nth-child(2){
 	font-family: 'Supermercado One';
 }
+
+/*--container-------------------------------*/
+.all-containers{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.container{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	border: 2px solid grey;
+	margin-top: 20px;
+	
+	background-color: white;
+}
+
+.container p{
+	padding: 10px;
+}
+
+
+
+/*--MEDIA-------------------------------*/
+@media all and (max-width: 600px){
+	.container img{
+		width: 30vh;
+	}
+
+	.container{
+		height: 35vh;
+	}
+}
