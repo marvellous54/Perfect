@@ -16,15 +16,16 @@
     background-repeat: no-repeat;
     height: 60vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .head-box{
-    background-color: black;
-    width: 50vh;
-    opacity: 0.4;
-    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .head-box > *{
@@ -32,11 +33,18 @@
     z-index: 99;
     color: rgb(255, 255, 255);
     padding: 10px;
+    text-align: center;
+}
+
+.details{
+    margin-top: -10px;
 }
 
 .gal-btn{
     text-align: center;
-    background-color: black;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    border-radius: 10px;
+    color: cyan;
+    background: transparent;
+    outline: none;
+    border: 0.5px solid lime;
 }
