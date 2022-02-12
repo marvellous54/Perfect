@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.heading{
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.pic{
+    background-image: url(https://user-images.githubusercontent.com/99110645/152911534-979f0344-8ff5-4656-9bfb-31b18c1c57dd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head-box{
+    background-color: black;
+    width: 50vh;
+    opacity: 0.4;
+    margin-left: 10px;
+}
+
+.head-box > *{
+    opacity: 1;
+    z-index: 99;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.gal-btn{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
