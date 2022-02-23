@@ -182,6 +182,68 @@ body{
 	top: -5px;
 }
 
+/*--page4--------------------------------------*/
+#page4{
+	position: relative;
+	margin: 3em auto 1em auto;
+	background-color: #19191b;
+	padding: 1em 0.5em;
+}
+
+.low-head{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-family: roboto mono;
+	color: white;
+}
+
+.contact{
+	text-align: center;
+	font-size: 1em;
+	color: cyan;
+	font-family: 'Bebas Neue';
+	letter-spacing: 0.276em;
+}
+
+.fa-brands{
+	font-size: 1.8em;
+	margin: 0em 0.5em;
+	color: white;
+}
+
+.icons{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#message{
+	height: 3em;
+	margin: 1em;
+	text-align: center;
+}
+
+.update{
+	text-align: center;
+	margin: 1em auto 0em auto;
+	display: block;
+	padding: 0.5em;
+	background-color: #df1d1d;
+	width: 10em;
+	border-radius: 1.5em;
+	color: white;
+}
+
+
 
 /*---MEDIA-------------------------*/
 @media all and (min-width: 600px){
