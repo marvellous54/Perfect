@@ -247,7 +247,12 @@ body{
 	letter-spacing: 0.3em;
 }
 
-
+.message-sent{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /*---MEDIA-------------------------*/
 @media all and (min-width: 600px){
