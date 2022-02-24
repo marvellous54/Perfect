@@ -186,7 +186,7 @@ body{
 /*--page4--------------------------------------*/
 #page4{
 	position: relative;
-	margin: 3em auto 1em auto;
+	margin: 3em auto 0em auto;
 	background-color: #19191b;
 	padding: 1em 0.5em;
 }
@@ -241,8 +241,10 @@ body{
 	background-color: #df1d1d;
 	width: 10em;
 	border-radius: 1.5em;
-	color: white;
+	color: cyan;
 	text-decoration: none;
+	font-family: 'Bebas Neue';
+	letter-spacing: 0.3em;
 }
 
 
